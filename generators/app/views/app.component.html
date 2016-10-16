@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <component-breadcrumbs></component-breadcrumbs>
+  </div>
+  <div class="row">
+    <component-header></component-header>
+  </div>
+  <div class="row">
+    <message></message>
+  </div>
+  <div class="row">
+    <div class="col-md-10">
+      <router-outlet></router-outlet>
+    </div>
+    <div class="col-md-2">
+      <side-menu [hidden]="!appService.displaySideBar"></side-menu>
+    </div>
+
+  </div>
+  <div class="row">
+    <component-footer></component-footer>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+node_modules
+coverage
+/generators/node_modules/
+/generators/typings/
+.idea
+/npm-debug.log
+

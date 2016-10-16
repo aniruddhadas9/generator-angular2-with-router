@@ -1,0 +1,132 @@
+
+#EquipmentSwap{width:876px !important}
+    .blueBackPop{background-color: #086795 !important;color: #fff;padding:10px; }
+
+div.widgetSwap > div.widgetSwap {
+    font-family: XFINITYStandard;
+    font-size: 24px;
+    color: #4a4a4a;
+    position: relative;
+    padding: 20px 0;
+    margin:0 20px;
+    font-weight: 300;
+}
+.hrSwap{border-bottom: 1px solid #ccc;height: 1px;margin:0 20px;}
+    .blueBackPop div.bh-item{padding-right: 10px !important;}
+    .ChangetoBillBox{background-color: #f2f2f2;padding: 15px 20px;margin-bottom:5px;font-size:16px}
+    .ChangetoBillBox p{color:#5d5d5d;margin-top: 10px;font-style: italic; word-break: break-all; word-break: break-word;font-size:14px }
+    .ChangetoBillBox span{ font-size:17px;}
+    .imageHandle{text-align: center;}
+     .imageHandle img{max-height: 140px;max-width: 180px;}
+    .imageHandle span{display: block;line-height: normal;padding: 0 10px}
+    .deviceSwapWig{padding:20px 20px 20px 11px;
+       -webkit-box-shadow: 0px 2px 4px  rgba(0,0,0,0.4);
+-moz-box-shadow: 0px 2px 4px  rgba(0,0,0,0.4);
+box-shadow: 0px 2px 4px  rgba(0,0,0,0.4);
+margin-top:5px;
+color:#191919;
+font-size: 16px;
+font-family:XFINITYStandard;
+width:100%;
+}
+label.deviceSwapWig{font-weight:normal}
+label.deviceSwapWig span.textRight p{color:#191919 !important;margin-bottom:0}
+
+.deviceSwapWig span.textRight{float: right;color:#000000;font-size:16px;font-family:XFINITYStandard}
+.deviceSwapWig span.textRight p{width: 216px;text-align:left}
+.oldDevice p span{color:#5d5d5d;padding-left: 13px; font-family:XFINITYStandard }
+.oldDevice p {margin-bottom: 5px !important; color:#191919; font-family:XfinityStandardCondensed;font-weight: 500; }
+.oldDeviceText{color:#5d5d5d !important;font-size: 14px;font-style: italic;font-family:XFINITYStandard !important;margin-top:10px }
+.greyFontSwap{color: #757575;font-size: 16px;font-family:XFINITYStandard }
+.subHeadingSwap{color:#191919;font-size: 20px;line-height: 20px;font-family:XFINITYStandard}
+.reasonSwap{color:#191919;font-size: 16px;font-family: XFINITYStandard;font-weight: 500;}
+.reasonSwap span{font-family:XFINITYStandard !important;font-weight: 400}
+.greyFontSwapSmall{color: #757575;font-size: 14px}
+.addressSwap{line-height:normal;font-size:16px}
+.deviceSwapWig label{font-size:16px !important;}
+.summarywidthSwap{width: 271px}
+input[type="radio"] + label {
+
+     padding-left: 0 !important;
+    padding-top: 4px;
+}
+.clearfix{clear:both}
+.oldDevice > table.read-only > tbody > tr:not(:last-child) {
+    border-bottom: 0;
+}
+.oldDevice > table.read-only > tbody td{
+    padding: 0 0 5px 0 !important;vertical-align: top;}
+.oldDevice > table.read-only > tbody > tr > td:last-child{font-family: XFINITYStandard;font-weight: 500;}
+.oldDevice > table.read-only > tbody > tr > td:first-child{white-space: nowrap; padding-right:2px !important}
+
+.deviceHeadingSwap{color:#191919;font-size:18px; font-family:XfinityStandardCondensed; font-weight: 500;;font-weight: 500;margin-bottom: 20px;text-align:center }
+.deviceNameSwap{color:#000000;font-size:16px;font-family:XFINITYStandard;line-height: 18px;margin-top: 15px}
+.marginTop50{margin-top: 50px;text-align: center;}
+.right{float:right;}
+.left{float: left;}
+.otherAddressSwap{padding-left:25px;}
+.textbreak{width: 160px; word-break: break-all; word-break: break-word;}
+.widthGutter{width:101px;padding-left: 0 !important;padding-right: 0 !important;}
+.paddingLeft0{padding-left:0 !important}
+.paddingRight0{padding-right:0 !important}
+
+div.input.input-text > input[type='text'], div.input.input-number > input[type='number'], div.input.input-tel > input[type='tel'], div.input.input-password > input[type='password'], div.input.input-notes > textarea, div.input.input-calendar > input {font-size:16px !important}
+
+.paddingleft13{padding-left:13px;}
+p{line-height:normal !important}
+
+.ein-modal-dialog {
+
+    top: 20% !important;
+    left: 12% !important;
+
+}
+.ein-modal:before {
+
+    opacity: .5 !important;
+
+}
+
+
+.boldFont{font-weight:bold}
+.boldFont:focus{font-weight:bold !important}
+
+.ein-modal > .ein-modal-dialog > .ein-modal-header {
+    position: relative;
+    font-family: XFINITYStandard;
+    font-size: 20px;
+    color: #191919;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #999;
+}
+.marginBottom0{margin-bottom:0 !important}
+
+div.block-header {
+
+    font-size: 16px !important;
+}
+    .ui-autocomplete {
+    background: #fff !important;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 1px 4px #ccc;
+    line-height:30px;
+    font-size:16px;
+    max-height: 220px !important;
+}
+.padding020Swap{padding:0 20px}
+.widthLeftSwap{width:463px !important}
+.width464{width:464px !important}
+.ulSectionswap {margin-left:20px;padding-left:0 !important;}
+.ulSectionswap li{display:inline-block;vertical-align:top; margin-top:20px}
+.normalParaSwap{font-family:XFINITYStandard; font-size:16px;}
+.valign-middle{vertical-align: middle}
+.width125{ width: 125px !important;}
+.imagefix{width: 18px;vertical-align: top;margin-top: 3px;}
+.whitespace{white-space: nowrap;}
+.swapWidth240{width: 242px;margin-left:-2px}
+.swapWidth240 td{vertical-align: top}
+.manageSwapTable td:first-child{width:210px}
+.manageSwapTable td:nth-child(2){width:43px;text-align: center; vertical-align: middle}
+.manageSwapTable td:last-child{width:210px}
+.verticalAlignTop{vertical-align: top}
+.manageSpanSwap span{color: #191919 !important;padding: 0 !important; font-family: XfinityStandardCondensed !important;}

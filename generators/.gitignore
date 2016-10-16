@@ -1,0 +1,9 @@
+/.idea
+/node_modules
+.project
+npm-debug.log
+/generators/node_modules
+
+
+
+
