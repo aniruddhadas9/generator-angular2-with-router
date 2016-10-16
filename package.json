@@ -1,6 +1,6 @@
 {
   "name": "generator-angular2-with-router",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple angular2 application having 3 pages with angular2 in build router to navigate between pages. It have all basic functionality which a standard angualr2 application needed. ",
   "homepage": "http://www.candifood.com",
   "author": {
