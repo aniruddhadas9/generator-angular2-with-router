@@ -1,7 +1,7 @@
 {
-  "name": "offer-finder",
+  "name": "angular2-with-router",
   "version": "1.0.0",
-  "description": "offer-finder widget",
+  "description": "angular2 application wuth angular2, angular2-router, angular2-http etc",
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "lint": "tslint ./app/**/*.ts -t verbose",
