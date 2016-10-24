@@ -1,14 +1,13 @@
 import {Component} from '@angular/core';
-import {AppService} from "../../services/app.service";
-import {GlobalVariable} from "../../services/global-variable";
+import {HomeService} from "../home/home.service";
 
 @Component({
   selector: 'component-header',
-  templateUrl: GlobalVariable.staticPath+'app/views/header.component.html',
+  templateUrl: 'app/components/header/header.component.html',
 })
 export class HeaderComponent {
 
-  constructor(public appService: AppService) {
+  constructor(public homeService: HomeService) {
   }
 
 }

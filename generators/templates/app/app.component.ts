@@ -1,15 +1,21 @@
-import { Component } from '@angular/core';
-import {AppService} from "./services/app.service";
-import {GlobalVariable} from "./services/global-variable";
+import {Component, OnInit} from '@angular/core';
+import {Router, ActivatedRoute, Params} from "@angular/router";
+
+
+import {HomeService} from "./components/home/home.service";
 
 @Component({
   selector: 'app',
-  templateUrl: GlobalVariable.staticPath+'app/views/app.component.html',
+  templateUrl: 'app/app.component.html'
 })
 export class AppComponent {
 
-  constructor(public appService: AppService) {
+
+  constructor(
+    private router: Router,
+    public homeService: HomeService
+  ) {
+
   }
 
 }
-

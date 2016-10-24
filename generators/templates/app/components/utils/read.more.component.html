@@ -1,0 +1,2 @@
+<div [innerHTML]="text" [class.collapsed]="isCollapsed" [style.height]="isCollapsed ? maxHeight+'px' : 'auto'"></div>
+<a [class.hidden]="hideToggle" (click)="toggleView()">Read {{isCollapsed? 'less':'more'}}</a>

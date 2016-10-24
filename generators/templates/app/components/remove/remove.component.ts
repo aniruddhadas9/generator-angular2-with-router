@@ -3,12 +3,13 @@ import {HomeService} from "../home/home.service";
 import {appConstants} from "../../services/app.constants";
 
 @Component({
-  selector: 'message',
-  templateUrl: 'app/components/message/message.component.html',
+  selector: 'second',
+  templateUrl: 'app/components/remove/remove.component.html',
 })
-export class MessageComponent {
+export class RemoveComponent {
 
   constructor(public homeService: HomeService) {
   }
 
+  //router.navigateByUrl('/home/(route1:page1//route2:page2//route3:page3)');
 }

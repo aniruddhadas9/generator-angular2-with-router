@@ -1,4 +1,4 @@
-System.register(['@angular/core', "../../services/app.service", "../../services/global-variable"], function(exports_1, context_1) {
+System.register(['@angular/core', "../home/home.service"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,30 +10,27 @@ System.register(['@angular/core', "../../services/app.service", "../../services/
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, app_service_1, global_variable_1;
+    var core_1, home_service_1;
     var MessageComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             },
-            function (app_service_1_1) {
-                app_service_1 = app_service_1_1;
-            },
-            function (global_variable_1_1) {
-                global_variable_1 = global_variable_1_1;
+            function (home_service_1_1) {
+                home_service_1 = home_service_1_1;
             }],
         execute: function() {
             MessageComponent = (function () {
-                function MessageComponent(appService) {
-                    this.appService = appService;
+                function MessageComponent(homeService) {
+                    this.homeService = homeService;
                 }
                 MessageComponent = __decorate([
                     core_1.Component({
                         selector: 'message',
-                        templateUrl: global_variable_1.GlobalVariable.staticPath + 'app/views/message.component.html',
+                        templateUrl: 'app/components/message/message.component.html',
                     }), 
-                    __metadata('design:paramtypes', [app_service_1.AppService])
+                    __metadata('design:paramtypes', [home_service_1.HomeService])
                 ], MessageComponent);
                 return MessageComponent;
             }());

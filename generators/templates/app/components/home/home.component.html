@@ -1,0 +1,36 @@
+<div class="jumbotron">
+  <h1 class="display-3">Home Page</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-2">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+
+  <p class="lead">
+    <a class="btn btn-primary btn-lg"  (click)="getCountriesByRegion('ASIA')" role="button">Get Country</a>
+  </p>
+
+
+  <div class="row">
+    <label>Region:</label>
+    <input type="text" [(ngModel)]="region" name="region" required>
+    <button type="button" (click)="getCountriesByRegion()">Search</button>
+    <hr>
+    <p style="color:red">{{error}}</p>
+    <h1>Countries in {{region}}</h1>
+    <div *ngFor="let country of countries">{{country.name}}</div>
+
+  </div>
+  <div class="row">
+    <div class="sm-col-10">{{homeService.message}}</div>
+    <div class="sm-col-2">
+      <button type="button" (click)="homeService.message='[first]'" class="btn btn-primary">Update view</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="sm-col-10"><pre>{{serverData}}</pre></div>
+    <div class="sm-col-2">
+      <button type="button" (click)="summaryDetail()" class="btn btn-primary">Rest call</button>
+    </div>
+  </div>
+
+
+</div>
