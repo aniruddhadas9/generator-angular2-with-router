@@ -1,0 +1,20 @@
+<div class="container-fluid">
+
+  <router-outlet name="header"></router-outlet>
+  <router-outlet name="breadcrumbs"></router-outlet>
+  <router-outlet name="message"></router-outlet>
+  <router-outlet name="heading"></router-outlet>
+
+    <div class="row" style="margin-top:9px;">
+      <div class="col-sm-8">
+        <router-outlet></router-outlet>
+      </div>
+      <div class="col-sm-4">
+        <router-outlet name="summary"></router-outlet>
+      </div>
+
+    </div>
+  <router-outlet name="footer"></router-outlet>
+
+
+</div>
