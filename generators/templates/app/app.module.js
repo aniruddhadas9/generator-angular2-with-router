@@ -1,4 +1,4 @@
-System.register(['@angular/core', '@angular/platform-browser', '@angular/forms', '@angular/common', './app.component', "./components/home/home.component", "./components/add/add.component", "./components/home/home.service", "./services/rest.service", "./components/message/message.component", "./components/header/header.component", "./components/footer/footer.component", "./components/breadcrumbs/breadcrumbs.component", './app.routes', "./components/heading/heading.component", "./components/summary/summary.component", "./components/remove/remove.component", './pipes/search-pipe', "./components/summary/summary.service", "./components/utils/read.more.component", "./pipes/loose.currency.pipe", "@angular/http"], function(exports_1, context_1) {
+System.register(['@angular/core', '@angular/platform-browser', '@angular/forms', '@angular/common', './app.component', "./components/home/home.component", "./components/add/add.component", "./components/home/home.service", "./services/rest.service", "./components/message/message.component", "./components/header/header.component", "./components/footer/footer.component", "./components/breadcrumbs/breadcrumbs.component", './app.routes', "./components/heading/heading.component", "./components/summary/summary.component", "./components/remove/remove.component", './pipes/search-pipe', "./components/summary/summary.service", "./components/utils/read.more.component", "./pipes/loose.currency.pipe", "@angular/http", "./modules/manage.module"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['@angular/core', '@angular/platform-browser', '@angular/forms',
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, platform_browser_1, forms_1, common_1, app_component_1, home_component_1, add_component_1, home_service_1, rest_service_1, message_component_1, header_component_1, footer_component_1, breadcrumbs_component_1, app_routes_1, heading_component_1, summary_component_1, remove_component_1, search_pipe_1, summary_service_1, read_more_component_1, loose_currency_pipe_1, http_1;
+    var core_1, platform_browser_1, forms_1, common_1, app_component_1, home_component_1, add_component_1, home_service_1, rest_service_1, message_component_1, header_component_1, footer_component_1, breadcrumbs_component_1, app_routes_1, heading_component_1, summary_component_1, remove_component_1, search_pipe_1, summary_service_1, read_more_component_1, loose_currency_pipe_1, http_1, manage_module_1;
     var AppModule;
     return {
         setters:[
@@ -79,8 +79,12 @@ System.register(['@angular/core', '@angular/platform-browser', '@angular/forms',
             },
             function (http_1_1) {
                 http_1 = http_1_1;
+            },
+            function (manage_module_1_1) {
+                manage_module_1 = manage_module_1_1;
             }],
         execute: function() {
+            //import {ManageComponent} from "./components/manage/manage.component";
             AppModule = (function () {
                 function AppModule() {
                 }
@@ -91,6 +95,7 @@ System.register(['@angular/core', '@angular/platform-browser', '@angular/forms',
                             forms_1.FormsModule,
                             http_1.HttpModule,
                             app_routes_1.routing,
+                            manage_module_1.ManageModule
                         ],
                         declarations: [
                             app_component_1.AppComponent,
@@ -105,7 +110,7 @@ System.register(['@angular/core', '@angular/platform-browser', '@angular/forms',
                             summary_component_1.SummaryComponent,
                             search_pipe_1.SearchPipe,
                             read_more_component_1.ReadMoreComponent,
-                            loose_currency_pipe_1.LooseCurrencyPipe
+                            loose_currency_pipe_1.LooseCurrencyPipe,
                         ],
                         providers: [
                             { provide: common_1.APP_BASE_HREF, useValue: '/' },
@@ -115,7 +120,8 @@ System.register(['@angular/core', '@angular/platform-browser', '@angular/forms',
                             rest_service_1.RestService,
                             app_routes_1.appRoutingProviders
                         ],
-                        bootstrap: [app_component_1.AppComponent]
+                        bootstrap: [app_component_1.AppComponent],
+                        schemas: [core_1.CUSTOM_ELEMENTS_SCHEMA]
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppModule);
