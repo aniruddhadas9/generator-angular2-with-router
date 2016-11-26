@@ -1,6 +1,6 @@
 {
   "name": "generator-angular2-with-router",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A simple angular2 application having 3 pages with angular2 in build router to navigate between pages. It have all basic functionality which a standard angualr2 application needed. ",
   "homepage": "https://github.com/aniruddhadas9/generator-angular2-with-router",
   "author": {

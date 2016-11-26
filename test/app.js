@@ -3,7 +3,7 @@ var path = require('path');
 var assert = require('yeoman-assert');
 var helpers = require('yeoman-test');
 
-describe('generator-angular-2-with-router:app', function () {
+describe('generator-angular2-with-router:app', function () {
   before(function () {
     return helpers.run(path.join(__dirname, '../generators/app'))
       .withPrompts({someAnswer: true})
@@ -12,7 +12,7 @@ describe('generator-angular-2-with-router:app', function () {
 
   it('creates files', function () {
     assert.file([
-      'dummyfile.txt'
+      '.'
     ]);
   });
 });

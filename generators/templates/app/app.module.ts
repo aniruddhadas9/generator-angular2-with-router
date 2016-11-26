@@ -1,4 +1,4 @@
-import {NgModule}      from '@angular/core';
+import {NgModule, CUSTOM_ELEMENTS_SCHEMA}      from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {FormsModule}   from '@angular/forms';
 import {APP_BASE_HREF, CurrencyPipe} from '@angular/common';
@@ -27,12 +27,18 @@ import {ReadMoreComponent} from "./components/utils/read.more.component";
 import {LooseCurrencyPipe} from "./pipes/loose.currency.pipe";
 import {Http, ConnectionBackend, RequestOptions, HttpModule} from "@angular/http";
 
+
+
+import {ManageModule} from "./modules/manage.module";
+//import {ManageComponent} from "./components/manage/manage.component";
+
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     routing,
+    ManageModule
     //Ng2PaginationModule
   ],
   declarations: [
@@ -48,7 +54,8 @@ import {Http, ConnectionBackend, RequestOptions, HttpModule} from "@angular/http
     SummaryComponent,
     SearchPipe,
     ReadMoreComponent,
-    LooseCurrencyPipe
+    LooseCurrencyPipe,
+    //ManageComponent
   ],
   providers: [
     {provide: APP_BASE_HREF, useValue: '/'},
@@ -58,7 +65,8 @@ import {Http, ConnectionBackend, RequestOptions, HttpModule} from "@angular/http
     RestService,
     appRoutingProviders
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 
 export class AppModule {

@@ -3,13 +3,9 @@
 .project
 npm-debug.log
 /generators/node_modules
-/**/*.js
-/**/*.js.map
+/app/**/*.js
+/app/**/*.js.map
 typings
 debug.log
-
-
-
-
 
 
