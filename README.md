@@ -5,10 +5,14 @@
 
 First, install [Yeoman](http://yeoman.io) and generator-angular2-with-router using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
+
 ```bash
 npm install -g yo
 npm install -g generator-angular2-with-router
 ```
+# video instruction
+Below youtube video shows what are the files in the application folder and why they are there.
+https://youtu.be/3uD0bCP3OTQ
 
 ## report issues
 Feel free report any issue and and feature update to help the angular2 community and developers at
